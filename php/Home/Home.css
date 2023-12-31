@@ -1,0 +1,188 @@
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.card-img-top {
+  height: 369px;
+  width: 100%;
+}
+
+
+/* Apply styles to the button */
+.btn-outline-secondary {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  color: black; /* Set the initial text color */
+  background-color: #fff5e1; /* Pastel yellow color */
+  border: 1px solid #ffd699; /* Slightly darker border for contrast */
+  outline: none; /* Remove default focus outline */
+  user-select: none; /* Prevent text selection */
+}
+
+/* Add hover effect */
+.btn-outline-secondary:hover {
+  background-color: #ffeac2; /* Lighter pastel yellow on hover */
+  color: black; /* Change text color to black on hover */
+}
+
+/* Add click animation */
+.btn-outline-secondary:active {
+  transform: scale(0.98); /* Slightly scale down on click */
+}
+
+      /* Styles for the "Sign up" Button */
+      .custom-signup-btn {
+        color: #fff; /* Text color for the button */
+        background-color: #e44d26; /* Custom color for the "Sign up" button */
+        border-color: #e44d26; /* Border color */
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+      }
+      
+      /* Add hover effect */
+      .custom-signup-btn:hover {
+        background-color: #c53c20; /* Darker color on hover */
+        color: #fff; /* Change text color to white on hover */
+      }
+      
+      /* Add click animation */
+      .custom-signup-btn:active {
+        transform: scale(0.98); /* Slightly scale down on click */
+        background-color: #a8321a; /* Darker background color on click */
+      }
+      
+      /* stylelint-disable stylistic/selector-list-comma-newline-after */
+      
+      .blog-header-logo {
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+        font-size: 2.25rem;
+      }
+      
+      .blog-header-logo:hover {
+        text-decoration: none;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+      }
+      
+      .flex-auto {
+        flex: 0 0 auto;
+      }
+      
+      .h-250 { height: 250px; }
+      @media (min-width: 768px) {
+        .h-md-250 { height: 250px; }
+      }
+      
+      /* Pagination */
+      .blog-pagination {
+        margin-bottom: 4rem;
+      }
+      
+      /*
+       * Blog posts
+       */
+      .blog-post {
+        margin-bottom: 4rem;
+      }
+      .blog-post-meta {
+        margin-bottom: 1.25rem;
+        color: #727272;
+      }
+
+
+        .image-container {
+          background-image: url('/WEBPRO/Images/bg1.png'); /* Replace 'your-image-url.jpg' with the actual image URL */
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          overflow: hidden;
+          transition: transform 0.3s ease; /* Apply transition for the 'transform' property */
+      }
+      
+      .image-container:hover {
+          transform: scale(1.05); /* Increase scale on hover to make it pop out */
+      }
+      
+      .image-container h1,
+      .image-container p,
+      .image-container a {
+          transition: color 0.3s ease; /* Apply transition for the 'color' property */
+      }
+      
+      /* Additional styles for your other elements */
+      
+    
